@@ -85,7 +85,6 @@
         margin: 0 auto;
         width: 70%;
     }
-
 }
 
 @media screen and (min-width: 1200px) {
@@ -95,8 +94,14 @@
 }
 
 .BrumaAlbum img {
-    width: 100%;
+    width: 80%;
     margin-bottom: .5rem;
+}
+
+@media screen and (min-width: 600px) {
+    .BrumaAlbum img {
+        width: 100%;
+    }
 }
 
 .WeAre {

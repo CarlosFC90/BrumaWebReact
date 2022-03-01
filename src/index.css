@@ -3,7 +3,7 @@ body {
   font-family: 'Permanent Marker', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(27 64 27 / 73%);
+  background-color: rgba(207, 207, 207, 0.73);
 }
 
 code {
