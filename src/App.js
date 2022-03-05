@@ -2,6 +2,7 @@
 import FrontAlbum from "./images/brumafront.png";
 import BackAlbum from "./images/brumaback.png";
 import Logo from "./images/logosinfondo.png";
+import Background from "./images/Background.jpg";
 import WeAre from './images/WeAre.JPG';
 
 // Video
@@ -23,12 +24,12 @@ function App() {
 
   return (
     <section className={Styles.GeneralContainer}>
-      <video src={VideoBack} autoPlay loop muted className={Styles.VideoBack}/>
+      <video src={VideoBack} autoPlay loop muted className={Styles.VideoBack} poster={Background}/>
       <section className={Styles.BannerSection}>
         <img src={Logo} alt="Logo"/>
       </section>
       <main className={Styles.VideoSectionContainer}>
-        <h1>EP Bruma- Volumen 1</h1>
+        <h1>EP Bruma - Volumen 1</h1>
         <div className={Styles.BrumaAlbum}>
           <img src={FrontAlbum} alt="Front"/>
           <img src={BackAlbum} alt="Back"/>
