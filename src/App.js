@@ -1,8 +1,8 @@
 // Images
 import FrontAlbum from "./images/brumafront.png";
+import Background from "./images/background.jpg";
 import BackAlbum from "./images/brumaback.png";
 import Logo from "./images/logosinfondo.png";
-import Background from "./images/Background.jpg";
 import WeAre from './images/WeAre.JPG';
 
 // Video
@@ -21,7 +21,7 @@ function App() {
     srcZ: "https://www.youtube.com/embed/adXJ9iEklrM",
     allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   }
-
+  
   return (
     <section className={Styles.GeneralContainer}>
       <video src={VideoBack} autoPlay loop muted className={Styles.VideoBack} poster={Background}/>
